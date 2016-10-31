@@ -1,0 +1,6 @@
+{
+  "name": "D20AwsSNS",
+  "tagline": "Amazon Web Service Simple Notification Service Script",
+  "body": "# D20AwsSns\r\nAmazon Web Service Simple Notification Service Script\r\n\r\n# Installation\r\n\r\nFirst type \r\n```\r\ngo get github.com/aws/aws-sdk-go\r\n```\r\n\r\n# Instructions\r\n\r\nfrom the terminal/command line :  \r\n```\r\ngo run sns.go\r\n```  \r\n -s the flag to set up a topic. Pass the topic name and aws region, in that order.  \r\n -r the flag to register a device. Pass the device token, platformARN and aws region, in that order.  \r\n -p the flag to push a notification. Pass the deviceARN (target), text and aws region, in that order.  \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
